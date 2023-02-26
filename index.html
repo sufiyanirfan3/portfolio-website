@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3425163c52.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Sufiyan Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="navbar">
+                <ul>
+                    <li id="navbar-home">Home</li>
+                    <li id="navbar-skills">Skills</li>
+                    <li id="navbar-projects">My Projects</li>
+                    <li id="navbar-contact">Contact</li>
+                </ul>
+            </div>
+            <div class="aboutMe">
+                <div class="aboutMe-text-container">
+                    <h2>Hi, Myself Sufiyan Irfan</h2>
+                    <h3>I'm an aspiring MERN developer from Karachi, Pakistan</h3>
+                </div>
+                <div class="aboutMe-text-container-mobile">
+                    <h2>Hi, Myself Sufiyan Irfan</h2>
+                    <h3 class="subtitle-upper">I'm an aspiring MERN developer</h3>
+                    <h3 class="subtitle-lower">from Karachi, Pakistan</h3>
+                </div>
+            </div>
+            <div class="skills">
+                <h2>&lt;Skills&gt;</h2>
+                <div class="skills-display">
+                    <div class="skills-item" style="background-color: cornflowerblue;">
+                        <h3>HTML 5</h3>
+                    </div>
+                    <div class="skills-item expandable" style="background-color: darkcyan;">
+                        <h3>CSS &#9660;</h3>
+                        <p class="skills-paragraph">I use vanilla CSS in almost every one of my projects for styling webpages, with very
+                           minimal experience using Bootstrap and Bulma. Through a lot of practice I've developed a good understanding of the basic concepts
+                           like the box-model, selectors, specificity and so on. I've used both grid and flexbox
+                           to design my pages but feel much more confident in my abilities with flexbox. Recently I've
+                           been working on adding responsive design to my projects and even dabbling in CSS animations.
+                        </p>
+                    </div>
+                    <div class="skills-item expandable" style="background-color: goldenrod;">
+                        <h3>JavaScript &#9660;</h3>
+                        <p class="skills-paragraph">Throughout my journey learning web development JavaScript is definitely the skill
+                            I've spent the most time working on and what I'd consider my greatest strength as a developer. Over the past
+                            few years I've used JavaScript to for a variety of purposes including DOM manipulation, data entry and retrieval
+                            from backend servers, API use, adding ineractivity, animation and so on.
+                            <br></br>
+                            In future I'd like to get better at using JavaScript for some of the concepts I struggle with a little such as
+                            asynchronous programming and error handling. As well as a delving into some frameworks like TypeScript.
+                    </div>
+                    <div class="skills-item" style="background-color: blueviolet;"><h3>React JS</h3></div>
+                    <div class="skills-item expandable" style="background-color: darkgreen;">
+                        <h3>Node JS &#9660;</h3>
+                        <p class="skills-paragraph">I've always wanted to be able to make complex, multi-page and useful
+                            websites like most you would find on the internet instead of simple single-page applications so
+                            learning how to make how to create a server environment was essential. I decided to learn Node JS
+                            along with Express JS for it's familiar syntax.
+                            <br></br>
+                            So far I've mainly used Node/Express for simple routing tasks but also simple login systems as well as
+                            authorisation such as giving 'Admin' or 'Member' users access to extra pages that normal users would not.
+                            Furthermore I often use Node/Express to save or read data from databases like MongoDB.
+                        </p>
+                    </div>
+                    <div class="skills-item" style="background-color: hotpink;"><h3>EJS</h3></div>
+                    <div class="skills-item expandable" style="background-color: #dc143c;">
+                        <h3>Mongoose / Mongo DB &#9660;</h3>
+                        <p class="skills-paragraph">For creating CRUD applications MongoDB has always been my
+                            database of choice for its flexible schemas and easy to follow syntax. For now I've only
+                            used Mongoose for simple data manipulation like storing usernames and encrypted passwords
+                            using packages like bcrypt. On occasion using two sets of simple data like login details and 
+                            user scores in a game, but nothing complex. I'm hoping to learn more about relational databases in future.
+                        </p>
+                    </div>
+                    <div class="skills-item expandable" style="background-color: black;">
+                        <h3>Git / Github &#9660;</h3>
+                        <p class="skills-paragraph">Being self taught I've never worked in a team as a web developer and thus
+                            only started learning how to use Git / Github very recently, but have found it very useful to keep
+                            track of my work and reduce errors while editing or updating projects.
+                            <br></br>
+                            So far I've gotten a solid grasp on pulling and pushing data to a git repository as well as creating
+                            new branches but I'm still working on mastering version control.
+                        </p>
+                    </div>
+                    <div class="skills-item" style="background-color: maroon;"><h3>NPM</h3></div>
+                </div>
+            </div>
+            <div class="projects">
+                <h2>&lt;My Projects&gt;</h2>
+                <div class="project-container">
+                    <img src="./images/project1.png" alt="">
+                    <div class="project-info">
+                        <h3>Email Generator App</h3>
+                        <h4>Description</h4>
+                        <p>
+                          Created a email generator website where a user will add
+                          email subject and little description about it and it will
+                          generate the email utilizing gpt-3 davinci-003 model
+                        </p>
+                        <h4>Stack</h4>
+                        <div class="project-stack">
+                            <h5 style="background-color: cornflowerblue;">HTML5</h5>
+                            <h5 style="background-color: darkcyan;">CSS</h5>
+                            <h5 style="background-color: goldenrod;">JavaScript</h5> 
+                        </div>
+                        <a class="project-a" href="https://email.metaviralbot.com/"><div class="project-link"><h3>Try for yourself!</h3></div></a>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <img src="./images/project2.png" alt="">
+                    <div class="project-info">
+                        <h3>Chatbot</h3>
+                        <h4>Description</h4>
+                        <p>
+                            A React JS based web application that allows users chat with the gpt-3
+                            API and asks questions on any topic. The gpt-3 will answer to that
+                            question in a friendly way.
+                        </p>
+                        <h4>Stack</h4>
+                        <div class="project-stack">
+                            <h5 style="background-color: cornflowerblue;">HTML5</h5>
+                            <h5 style="background-color: darkcyan;">CSS</h5> 
+                            <h5 style="background-color: blueviolet;">React JS</h5>
+                            <h5 style="background-color: yellowgreen;">Node JS</h5>
+                        </div>
+                        <a class="project-a" href="https://chat.metaviralbot.com/"><div class="project-link"><h3>Try for yourself!</h3></div></a>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <img src="./images/project3.png" alt="">
+                    <div class="project-info">
+                        <h3>AI Generated Meal Plans</h3>
+                        <h4>Description</h4>
+                        <p>
+                            A AI generated meal plan which will recommend meal
+                            based on user provided description using gpt-3 API
+                        </p>
+                        <h4>Stack</h4>
+                        <div class="project-stack">
+                            <h5 style="background-color: cornflowerblue;">HTML5</h5>
+                            <h5 style="background-color: darkcyan;">CSS</h5> 
+                            <h5 style="background-color: blueviolet;">JavaScript</h5>
+                        </div>
+                        <a class="project-a" href=""><div class="project-link"><h3>Try for yourself!</h3></div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <h2>&lt;Contact&gt;</h2>
+                    <div class="contact-email">
+                        <i class="fa-solid fa-envelope fa-2x"></i>
+                        <h3>sufiyanirfan1613@gmail.com</h3>
+                    </div>
+
+                    <div class="contact-github">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                        <h3><a href="https://github.com/sufiyanirfan3">https://github.com/sufiyanirfan3</a></h3>
+                    </div>
+            </div>
+        </div>
+        <div class="loading-screen hidden">
+            <div class="loading-center">
+                <i class="fa-solid fa-spinner fa-8x"></i>
+            </div>
+            <h2 class="loading-text">Please wait, due to server load times this may take a minute or two...</h2>
+        </div>
+    </div>
+</body>
+</html>
